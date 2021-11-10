@@ -1,0 +1,28 @@
+.cursive-text {
+  font-family: 'Poppins cursive';
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.more-small-text {
+  font-size: 12px;
+}
+
+.pink-text {
+  color: #ff1d5e;
+}
+
+.pink-bg {
+  background-color: #ff1d5e;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-justify {
+  text-align: justify;
+}
+

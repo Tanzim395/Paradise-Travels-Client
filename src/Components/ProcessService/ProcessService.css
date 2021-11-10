@@ -1,0 +1,17 @@
+.offer-banner {
+    padding: 130px;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+    .offer-banner {
+        padding: 20px;
+    }
+
+    .offer-title {
+        font-size: 24px;
+    }
+}
