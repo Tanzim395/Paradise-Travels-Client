@@ -1,17 +1,19 @@
-# Paradise Travels
+# Paradise Travels For Client
 
+### Live Site Link: [https://mysterious-eyrie-37034.herokuapp.com/](https://mysterious-eyrie-37034.herokuapp.com/)
 
-This is a Paradise Travels web application. Here you can booked different types tours and travels offers and packages and track your orders. You can also post a tour package, delete package, delete your order and also update offer package. Here is also online booking system. You can also login through Google. React JS and pure Javascript were used to build the web application.
+It's a MERN Stack complete Travel Agency Website. Paradise Travels agency is a renowned company who provides tourism related services. In this site, A user can Book, Select, Add New Package, Update Package, Delete if wishes
+
+* This website is build with React(Frontend), + MongoDB,ExpressJS,NodeJS(Backend)
+
+* A Fullstack Website
 
 Here are some features. It is described below:
 
-* Select your preferred tours package.
-* Online Registration System.
-* Highly secured Google Authentication System.
-* You can see our booked or orders Information.
-* You can also delete your orders.
-* Admin Dashboard available.
-* Admin can remove a tours package and also update a package.
-* Admin can create a a new tours package.
+* Travel Agency Website
+* Firebase Authenticated
+* MongoDB used for Database
+* REACT, React-Bootstrap, React-Router-DOM, React-Atom-Spinners, React Hook-form    and  some plain CSS3 Applied for the UI.
+* User and Admin friendly website. Easy to Control.
 
- 
+ ![Paradise-Travels](https://i.ibb.co/zhG6F1X/screenshot-localhost-3000-2021-11-12-04-14-15.png)
