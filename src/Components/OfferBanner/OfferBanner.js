@@ -4,23 +4,54 @@ import './OfferBanner.css';
 
 const OfferBanner = () => {
     return (
-        <div className="mb-4 text-center bg-light offer-banner">
-            <h4 className="display-6 cursive-text offer-title">Get 20% Off Your First Trip</h4>
-            <div>
-                <div>
-                    <small className="text-muted small-text">
-                        Who doesn’t like a discount? Book with us your first trip today and receive an
-                    </small>
-                </div>
+        <section className="match-schedule container">
+            <h2 className="text-center text-primary">Upcoming tour Schedule</h2>
+            <table>
+                <thead>
+                    <th>Date</th>
+                    <th>From Country</th>
+                    <th>To Country</th>
+                    <th>Departure Time</th>
+                </thead>
 
-                <div>
-                    <small className="text-muted small-text">
-                        exclusive offer.
-                    </small>
-                </div>
-            </div>
-            <NavLink to="service" className="btn btn-danger mt-3 px-4">Service</NavLink>
-        </div>
+                <tbody>
+                    <tr>
+                        <td>19-11-2021</td>
+                        <td>Bangladesh</td>
+                        <td>Singapore</td>
+                        <td>10:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>25-11-2021</td>
+                        <td>Bangladesh</td>
+                        <td>France</td>
+                        <td>08:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>01-12-2021</td>
+                        <td>Bangladesh</td>
+                        <td>UAE</td>
+                        <td>11:00 AM</td>
+                    </tr>
+
+                    <tr>
+                        <td>07-12-2021</td>
+                        <td>Bangladesh</td>
+                        <td>Sri-Lanka</td>
+                        <td>10:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>05-05-2021</td>
+                        <td>Bangladesh</td>
+                        <td>London</td>
+                        <td>06:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     );
 };
 
