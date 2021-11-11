@@ -18,7 +18,7 @@ const Booking = () => {
     const [tour, setTour] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/tours/${id}`)
+        fetch(`https://mysterious-eyrie-37034.herokuapp.com/tours/${id}`)
             .then(res => res.json())
             .then(data => {
                 setTour(data);
@@ -42,7 +42,7 @@ const Booking = () => {
         data.status = "Pending";
         setIsLoading(true);
 
-        fetch("http://localhost:5000/orders", {
+        fetch("https://mysterious-eyrie-37034.herokuapp.com/orders", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

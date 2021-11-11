@@ -18,7 +18,7 @@ const MyOrders = () => {
         if (confirm) {
             setIsLoading(true);
 
-            fetch(`http://localhost:5000/orders/${id}`, {
+            fetch(`https://mysterious-eyrie-37034.herokuapp.com/orders/${id}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json'
@@ -35,7 +35,7 @@ const MyOrders = () => {
 
     // For Load Users Own Orders
     useEffect(() => {
-        fetch(`http://localhost:5000/orders?email=${user.email}`)
+        fetch(`https://mysterious-eyrie-37034.herokuapp.com/orders?email=${user.email}`)
             .then(res => res.json())
             .then(data => {
                 setMyOrders(data);

@@ -9,7 +9,7 @@ const HomeService = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        fetch("http://localhost:5000/tours")
+        fetch("https://mysterious-eyrie-37034.herokuapp.com/tours")
             .then(res => res.json())
             .then(data => {
                 const reverseData = data.slice().reverse();

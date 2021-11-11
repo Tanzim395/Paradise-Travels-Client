@@ -36,7 +36,7 @@ const Service = () => {
     };
 
     useEffect(() => {
-        fetch("http://localhost:5000/tours")
+        fetch("https://mysterious-eyrie-37034.herokuapp.com/tours")
             .then(res => res.json())
             .then(data => {
                 setTours(data.slice().reverse());

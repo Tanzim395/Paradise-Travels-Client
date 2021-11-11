@@ -13,7 +13,7 @@ const AddNewService = () => {
     const onSubmit = data => {
         setIsLoading(true);
 
-        fetch("http://localhost:5000/tours", {
+        fetch("https://mysterious-eyrie-37034.herokuapp.com/tours", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

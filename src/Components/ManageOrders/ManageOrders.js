@@ -16,7 +16,7 @@ const ManageOrders = () => {
         if (confirm) {
             setIsLoading(true);
 
-            fetch(`http://localhost:5000/${id}`, {
+            fetch(`https://mysterious-eyrie-37034.herokuapp.com/${id}`, {
                 method: 'DELETE', //delete method
                 headers: {
                     'Content-Type': 'application/json'
@@ -36,14 +36,14 @@ const ManageOrders = () => {
         setIsLoading(true);
         let data = {};
 
-        fetch(`http://localhost:5000/orders?id=${id}`)
+        fetch(`https://mysterious-eyrie-37034.herokuapp.com/orders?id=${id}`)
             .then(res => res.json())
             .then(result => {
                 result.status = "Approved";
                 data = result;
 
                 // Update Data
-                fetch(`http://localhost:5000/orders/${id}`, {
+                fetch(`https://mysterious-eyrie-37034.herokuapp.com/orders/${id}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json'
@@ -61,7 +61,7 @@ const ManageOrders = () => {
 
     // For Load Users Own Orders
     useEffect(() => {
-        fetch(`http://localhost:5000/orders`)
+        fetch(`https://mysterious-eyrie-37034.herokuapp.com/orders`)
             .then(res => res.json())
             .then(data => {
                 setOrders(data);
