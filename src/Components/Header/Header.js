@@ -36,7 +36,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <NavLink className="btn" to="/">Home</NavLink>
-                        <NavLink className="btn" to="/service">Service</NavLink>
+                        <NavLink className="btn" to="/service">Tour Packs</NavLink>
                         <NavLink className="btn" to="/about">About</NavLink>
                         <NavLink className="btn" to="/team">Our Partners</NavLink>
                         <NavLink className="btn" to="/contact">blog</NavLink>
