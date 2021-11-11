@@ -23,7 +23,7 @@ const HomeService = () => {
             {/* Service Banner */}
             <div className="service-banner text-center">
                 <h4 className="display-6 cursive-text service-title">
-                    Our Most Popular Tour Packages
+                    Our Most Popular <span className="text-primary">Tour Packages</span>
                 </h4>
                 <div>
                     <div>

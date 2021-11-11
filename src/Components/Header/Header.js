@@ -37,7 +37,7 @@ const Header = () => {
                     <Nav className="ms-auto">
                         <NavLink className="btn" to="/">Home</NavLink>
                         <NavLink className="btn" to="/service">Tour Packs</NavLink>
-                        <NavLink className="btn" to="/about">About</NavLink>
+                        <NavLink className="btn" to="/about">About Us</NavLink>
                         <NavLink className="btn" to="/team">Resources</NavLink>
                         <NavLink className="btn" to="/contact">Subscribe</NavLink>
 
