@@ -23,24 +23,18 @@ const HomeService = () => {
             {/* Service Banner */}
             <div className="service-banner text-center">
                 <h4 className="display-6 cursive-text service-title">
-                    Special Deals and Last-Minute Offers
+                    Our Most Popular Tour Packages
                 </h4>
                 <div>
                     <div>
                         <small className="text-muted small-text">
-                            Book a unique tour at a great price! Grab a last-minute offer and start
-                        </small>
-                    </div>
-
-                    <div>
-                        <small className="text-muted small-text">
-                            packing for your memorable vacation.
+                            These tours are organised based on popularity. Book now and enjoy the thrill.
+                            Select your pack now!
                         </small>
                     </div>
                 </div>
             </div>
 
-            {/* Tours List */}
             <Container>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     {/* For Loading Screen */}

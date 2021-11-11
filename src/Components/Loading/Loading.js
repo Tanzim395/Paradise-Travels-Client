@@ -1,6 +1,7 @@
 import React from 'react';
 import './Loading.css';
 
+//Loading from React Atom Spinners Package.
 const Loading = () => {
     return (
         <div className="py-5 mx-auto">

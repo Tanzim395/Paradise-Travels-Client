@@ -39,7 +39,7 @@ const Header = () => {
                         <NavLink className="btn" to="/service">Tour Packs</NavLink>
                         <NavLink className="btn" to="/about">About</NavLink>
                         <NavLink className="btn" to="/team">Resources</NavLink>
-                        <NavLink className="btn" to="/contact">blog</NavLink>
+                        <NavLink className="btn" to="/contact">Subscribe</NavLink>
 
                         {
                             user.email
@@ -47,7 +47,7 @@ const Header = () => {
                                 <>
                                     <NavDropdown title={user.displayName} className="fw-bold text-center">
                                         <NavLink className="btn w-100 no-focus bg-primary" to="/manageAllOrders">Manage All Orders</NavLink>
-                                        <NavLink className="btn w-100 no-focus bg-warning" to="/addNewService">Add A New Service</NavLink>
+                                        <NavLink className="btn w-100 no-focus bg-danger" to="/addNewService">Add A New Service</NavLink>
                                     </NavDropdown>
 
                                     <button onClick={handleLogout} className="btn btn-primary btn-padding">

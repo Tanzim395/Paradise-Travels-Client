@@ -42,7 +42,7 @@ const Tour = props => {
 
                     <div className="card-footer border-0 bg-white p-0">
                         <NavLink to={`/booking/${_id}`} className="btn btn-primary px-4 w-100 rounded-0 order-btn">
-                            Book Now
+                            Book Now!
                         </NavLink>
                     </div>
                 </div>

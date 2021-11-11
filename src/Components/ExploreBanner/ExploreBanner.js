@@ -10,11 +10,11 @@ const ExploreBanner = () => {
 
                 <div className="col d-flex align-items-center justify-content-center">
                     <div className="w-75 banner-text-container">
-                        <h4 className="display-6 cursive-text">Feel The Joy Of Nature Through <i><span className="text-success">Paradise</span></i></h4>
+                        <h4 className="display-6 cursive-text">Feel The Joy Of Nature from <i><span className="text-success">Paradise</span></i></h4>
                         <p className="text-muted">
                             Treat yourself, your time, your journey, your enjoy, Our Pleasure to give you the best Travel Experience All Around the world
                         </p>
-                        <NavLink to="service" className="btn btn-secondary px-5">Service</NavLink>
+                        <NavLink to="service" className="btn btn-secondary px-5">Tours</NavLink>
                     </div>
                 </div>
 

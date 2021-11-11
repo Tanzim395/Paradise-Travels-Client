@@ -42,7 +42,6 @@ const Footer = () => {
                 </div>
             </section>
 
-            {/* Copyright */}
             <div
                 className="text-center p-3 small-text"
                 style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}

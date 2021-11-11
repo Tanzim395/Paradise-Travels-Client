@@ -8,20 +8,15 @@ const ServiceBanner = props => {
     return (
         <div className="mb-4 text-center bg-light service-banner">
             <h4 className="display-6 cursive-text service-title">
-                Special Deals and Last-Minute Offers
+                We Are Offering
             </h4>
             <div>
                 <div>
-                    <small className="text-muted small-text">
-                        Book a unique tour at a great price! Grab a last-minute offer and start
+                    <small className="text-black small-text">
+                        Get the Ultimate hot Deals With Paradise Travels. Book your first order and get a flat 15% Discount!!! Go Hurry!
                     </small>
                 </div>
 
-                <div>
-                    <small className="text-muted small-text">
-                        packing for your memorable vacation.
-                    </small>
-                </div>
             </div>
 
             <Search
