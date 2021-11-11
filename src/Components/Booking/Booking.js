@@ -5,9 +5,6 @@ import { Container } from 'react-bootstrap';
 import useAuth from '../../Hooks/useAuth';
 import { useParams, useHistory } from 'react-router-dom';
 import Loading from '../Loading/Loading';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF, faInstagram, faTwitter, faWhatsapp, faPinterest } from "@fortawesome/free-brands-svg-icons";
 
 const Booking = () => {
     // For User
