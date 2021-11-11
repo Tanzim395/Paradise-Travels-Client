@@ -128,12 +128,6 @@ const Booking = () => {
                                 </div>
                             </div>
 
-                            {/* Contact GIF */}
-                            <div className="col col-12 col-sm-12 col-md-12 col-lg-4">
-                                <div className="card h-100 border-0 d-flex align-items-center justify-content-center">
-                                    <img className="img-fluid" src="https://i.ibb.co/1bPs03Y/mail-success.gif" alt="mail" />
-                                </div>
-                            </div>
 
                             {/* Order Form */}
                             <div className="col-12 col-sm-12 col-md-6 col-lg-4">
@@ -209,7 +203,7 @@ const Booking = () => {
                         </div>
                     </div>
             }
-        </Container>
+        </Container >
     );
 };
 

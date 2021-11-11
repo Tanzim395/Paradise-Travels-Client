@@ -4,7 +4,6 @@ import OfferBanner from '../OfferBanner/OfferBanner';
 import Slider from '../Slider/Slider';
 import HomeService from '../HomeService/HomeService';
 import Loading from '../Loading/Loading';
-import ProcessService from '../ProcessService/ProcessService';
 
 const Home = () => {
     // For Loading Spinner
@@ -22,7 +21,6 @@ const Home = () => {
                         <Slider></Slider>
                         <HomeService></HomeService>
                         <ExploreBanner></ExploreBanner>
-                        <ProcessService></ProcessService>
                         <OfferBanner></OfferBanner>
                     </>
                     :

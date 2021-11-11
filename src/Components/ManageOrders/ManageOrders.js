@@ -16,7 +16,7 @@ const ManageOrders = () => {
         if (confirm) {
             setIsLoading(true);
 
-            fetch(`http://localhost:5000/orders/${id}`, {
+            fetch(`http://localhost:5000/${id}`, {
                 method: 'DELETE', //delete method
                 headers: {
                     'Content-Type': 'application/json'

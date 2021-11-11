@@ -7,24 +7,15 @@ const About = () => {
         <Container className="my-4">
             <div className="mb-4 text-center bg-light service-banner">
                 <h4 className="display-6 cursive-text service-title">
-                    About
+                    Your Travel Advisor
                 </h4>
                 <div>
                     <div>
                         <small className="text-muted small-text">
-                            Paradise Travels is not your average travel agency. For over ten years we have been creating
-                        </small>
-                    </div>
-
-                    <div>
-                        <small className="text-muted small-text">
-                            tailor-made vacations. We have thousands of happy customers
-                        </small>
-                    </div>
-
-                    <div>
-                        <small className="text-muted small-text">
-                            all around the world.
+                            Paradise Travels and Tours, Inc. was started in 2006 by Arnette Cowan.
+                            Ms. Cowan received her training through the Travel Agent Training Center, Inc.
+                            She received training as an Alaska Destination Specialist and in planning cruises.
+                            She plans travel/tours for large or small groups and individuals.
                         </small>
                     </div>
                 </div>
@@ -33,37 +24,39 @@ const About = () => {
             <div className="row row-cols-1 row-cols-md-2 g-2">
                 <div className="col d-flex align-items-center justify-content-center">
                     <div className="w-75 banner-text-container">
-                        <h4 className="display-6 cursive-text">Tailored</h4>
+                        <h4 className="display-6 cursive-text">Best Travel Agency Award 2020</h4>
                         <p className="text-muted small-text">
-                            Every vacation we create is unique and
-                            tailored just for you. Tell us where you
-                            want to go. We hand-select the hotels and activities
-                            that we work with regularly. Our quality
-                            is our priority.
+                            We Are really pleased to let you know that we got an award from Ministry of National Tourist Agency 2020. That means your realibility makes us stronger...
                         </p>
                     </div>
                 </div>
 
                 <div className="col">
-                    <img className="img-fluid" src="https://i.ibb.co/vh3QBnV/24.jpg" alt="nature" />
+                    <img className="img-fluid" src="https://previews.123rf.com/images/lenm/lenm0803/lenm080300071/2680974-receiving-award.jpg" alt="nature" />
                 </div>
-
-
-                <div className="col">
-                    <img className="img-fluid" src="https://i.ibb.co/RDxYpdQ/25.jpg" alt="nature" />
-                </div>
-
                 <div className="col d-flex align-items-center justify-content-center">
                     <div className="w-75 banner-text-container">
-                        <h4 className="display-6 cursive-text">Philosophy</h4>
+                        <h4 className="display-6 cursive-text">2021 Top Travel Agency Nominated</h4>
                         <p className="text-muted small-text">
-                            Our philosophy is simple: wanderlust.
-                            It reflects in our selection of exquisite
-                            boutique hotels. We hand-select the hotels and activities
-                            that we work with regularly. Our quality
-                            is our priority.
+                            We Are really pleased to let you know that we got an award from Ministry of National Tourist Agency 2021. That means your realibility makes us stronger...
                         </p>
                     </div>
+                </div>
+
+                <div className="col">
+                    <img className="img-fluid" src="https://content.theadventurepeople.com/wp-content/uploads/2021/09/Travolution-awards-shortlist-banner.jpg" alt="nature" />
+                </div>
+                <div className="col d-flex align-items-center justify-content-center">
+                    <div className="w-75 banner-text-container">
+                        <h4 className="display-6 cursive-text">Best Agents</h4>
+                        <p className="text-muted small-text">
+                            We Are really pleased to let you know that we provide our best from expert agency and travel related executed high performance team always ready to provide you the best service possibe. That means your realibility makes us stronger...
+                        </p>
+                    </div>
+                </div>
+
+                <div className="col">
+                    <img className="img-fluid" src="https://info.inteletravel.com/hubfs/Blogs/Inteletravel-Blog-Travel-Agent-vs-Travel-Advisor.jpg" alt="nature" />
                 </div>
             </div>
         </Container>
