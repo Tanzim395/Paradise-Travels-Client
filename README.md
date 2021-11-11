@@ -14,6 +14,4 @@ Here are some features. It is described below:
 * Admin can remove a tours package and also update a package.
 * Admin can create a a new tours package.
 
-Best Regards \
-Md. Rifat Islam
  

@@ -101,29 +101,7 @@ const Booking = () => {
                                             </div>
                                         </div>
 
-                                        <div className="row">
-                                            <div className="col-6">
-                                                <FontAwesomeIcon icon={faStar} className="more-small-text pink-text me-1" />
-                                                <FontAwesomeIcon icon={faStar} className="more-small-text pink-text me-1" />
-                                                <FontAwesomeIcon icon={faStar} className="more-small-text pink-text me-1" />
-                                                <FontAwesomeIcon icon={faStar} className="more-small-text pink-text me-1" />
-                                                <FontAwesomeIcon icon={faStar} className="more-small-text pink-text me-1" />
-                                            </div>
 
-                                            <div className="col-6">
-                                                <div className="text-end">
-                                                    <FontAwesomeIcon icon={faFacebookF} className="pointer more-small-text text-muted me-1" />
-
-                                                    <FontAwesomeIcon icon={faInstagram} className="pointer more-small-text text-muted me-1" />
-
-                                                    <FontAwesomeIcon icon={faTwitter} className="pointer more-small-text text-muted me-1" />
-
-                                                    <FontAwesomeIcon icon={faWhatsapp} className="pointer more-small-text text-muted me-1" />
-
-                                                    <FontAwesomeIcon icon={faPinterest} className="pointer more-small-text text-muted me-1" />
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

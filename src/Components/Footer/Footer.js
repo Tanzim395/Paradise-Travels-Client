@@ -16,102 +16,27 @@ const Footer = () => {
                                 style={{ width: "60px", backgroundColor: "#ff1d5e", height: "2px" }}
                             />
                             <p className="small-text footer-about">
-                                This is a Paradsie Travels web application. Here you can booked different types tours and travels offers and packages and track your orders. You can also post a tour and package.
+                                This website is for paradise Travels Agency. Where you can book, add, manage tour pack and services. You can consider this site as your online service and gateway authentication reliable.
                             </p>
                         </div>
 
-                        {/* Service */}
-                        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <h6 className="text-uppercase fw-bold ">Service</h6>
-                            <hr
-                                className="mb-4 mt-0 d-inline-block mx-auto"
-                                style={{ width: "60px", backgroundColor: "#ff1d5e", height: "2px" }}
-                            />
 
-                            <p>
-                                <NavLink to="/service" className="text-white text-decoration-none small-text">
-                                    Tour
-                                </NavLink>
-                            </p>
-
-
-                            <p>
-                                <NavLink to="/service" className="text-white text-decoration-none small-text">
-                                    Holiday
-                                </NavLink>
-                            </p>
-
-                            <p>
-                                <NavLink to="/service" className="text-white text-decoration-none small-text">
-                                    Vacation
-                                </NavLink>
-                            </p>
-
-                            <p>
-                                <NavLink to="/service" className="text-white text-decoration-none small-text">
-                                    Hotel
-                                </NavLink>
-                            </p>
-                        </div>
 
                         {/* Useful links */}
-                        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <h6 className="text-uppercase fw-bold">Useful links</h6>
-                            <hr
-                                className="mb-4 mt-0 d-inline-block mx-auto"
-                                style={{ width: "60px", backgroundColor: "#ff1d5e", height: "2px" }}
-                            />
 
-                            <p>
-                                <NavLink to="/" className="text-white text-decoration-none small-text">Home</NavLink>
-                            </p>
-
-                            <p>
-                                <NavLink to="/service" className="text-white text-decoration-none small-text">
-                                    Service
-                                </NavLink>
-                            </p>
-
-                            <p>
-                                <NavLink to="/about" className="text-white text-decoration-none small-text">
-                                    About
-                                </NavLink>
-                            </p>
-
-                            <p>
-                                <NavLink to="/contact" className="text-white text-decoration-none small-text">
-                                    Contact
-                                </NavLink>
-                            </p>
-                        </div>
+                        <img className="w-25 img-fluid" src="https://www.sslcommerz.com/wp-content/uploads/2021/06/Payment-Brands.jpg" alt="" />
 
                         {/* Contact */}
                         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <h6 className="text-uppercase fw-bold ">Contact</h6>
-                            <hr
-                                className="mb-4 mt-0 d-inline-block mx-auto"
-                                style={{ width: "60px", backgroundColor: "#ff1d5e", height: "2px" }}
-                            />
+                            <div>
+                                <h2>Our Location</h2>
+                                <article>P.O. Box 222
+                                    Knightdale, NC 27545
+                                    Phone (919) 217-0062
+                                    Fax (919) 266-6386
 
-                            <p className="small-text">
-                                <i className="fas fa-home mr-3"></i>
-                                Dhaka, Gulshan 1212, Bangladesh
-                            </p>
-
-                            <p className="small-text">
-                                <i className="fas fa-envelope mr-3"></i>
-                                paradisetravels@hotmail.com
-                            </p>
-
-                            <p className="small-text">
-                                <i className="fas fa-phone mr-3"></i>
-                                +880 199 999 888
-                            </p>
-
-                            <p className="small-text">
-                                <i className="fas fa-print mr-3"></i>
-                                +880 199 999 888
-                            </p>
+                                    Email paradisetravels1@aol.com</article>
+                            </div>
                         </div>
                     </div>
                 </div>
